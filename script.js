@@ -34,13 +34,16 @@ function renderTodoList() {
 }
 
 function addTodo() {
-    const todoInput = document.getElementById('taskInput').value;
-    const todoDueDate = document.getElementById('dueDate').value;
+    const todoInput = document.getElementById('taskInput');
+    const todoDueDate = document.getElementById('dueDate');
 
     todoList.push({
-        name: todoInput,
-        dueDate: todoDueDate
+        name: todoInput.value,
+        dueDate: todoDueDate.value
     });
+    
     todoInput.value = '';
+    todoDueDate.value = '';
+    
     renderTodoList();
 }
