@@ -35,4 +35,4 @@ cd Todo-List
 
 ### Live Demo
 
-[Link Text](URL)
+[https://sandeep-m-patil.github.io/Todo-List/](https://sandeep-m-patil.github.io/Todo-List/)
